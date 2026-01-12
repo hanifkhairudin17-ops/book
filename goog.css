@@ -1,0 +1,109 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    outline: 1x solid red;
+}
+
+.bungkus{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.foto{
+    margin-left: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.aksara{
+    width: 160%;
+    height: 100vh;
+}
+
+
+.bung{
+    display: flex;
+    width: 40%;
+    height: 10%;
+    margin: auto;
+
+}
+
+.garis{
+    width: 1px;
+    height: 70%;
+    background-color: #0A53A1;
+}
+
+.teks{
+    font-family: Airlash Raiders;
+    font-size: 29px;
+    color:#0A53A1 ;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.kus{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 12%;
+    padding: 5%;
+}
+
+.ket{
+    font-family: Alte Haas Grotesk;
+    font-size:14px;
+    color: black;
+    width: 38%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.email{
+    width: 90%;
+    height: 30%;
+    background-color: #DBDBDB;
+    border: none;
+    border-radius: 9px;
+    padding: 4px;
+    margin: auto;
+    font-family: Alte Haas Grotesk;
+    font-size: 12px;
+    margin-top: 3%;
+    padding-left: 12px;
+}
+
+.input{
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.log{
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.Login{
+   margin-left: 12%;
+   background-color: #0A53A1;
+   width: 81%;
+   height: 20%;
+   border: none;
+   border-radius: 12px;
+   color: white;
+   margin: auto;
+   margin-left:7%;
+}

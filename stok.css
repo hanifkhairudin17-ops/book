@@ -1,0 +1,527 @@
+body{
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    padding-top: 4.2%;
+    overflow-x: hidden;
+}
+
+*{
+    outline: 1x solid red;
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    background-color: #EBEBEB;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+#logo{
+    min-width: 50px;
+    max-width: 60px;
+    background-image: url(aksara.png);
+    background-size: cover;
+    min-height: 46px;
+    max-height: 50px;
+    margin-top: 3%;
+}
+
+#teks{
+    font-family: Airlash Raiders;
+    font-size: 100%;
+    color: #0A53A1;
+    min-height: 29px;
+    max-height: 31px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#garis{
+    background-color: #0A53A1;
+    min-width: 1px;
+    max-width: 3px;
+    min-height: 33px;
+    max-height: 36px;
+    margin-top: 8%;
+}
+
+.log{
+    background-image: url(buku.png);
+    background-size: cover;
+    min-width: 27px;
+    max-width: 29px;
+    min-height: 27px;
+    max-height: 29px;
+    margin-left: auto;
+    padding: 6px;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    opacity: 0.3;
+    transform: scaleX(180deg);
+}
+
+.profile{
+    margin: auto;
+    width: 95%;
+    height: 90%;
+    margin-top: 3%;
+    display: flex;
+    margin-bottom: 2%;
+    gap: 2%;
+}
+
+.bung{
+    width: 4%;
+    height: 4%;
+    
+}
+
+#profile{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 80%;
+}
+
+.search{
+    width: 42%;
+    height: 100%;
+    margin-top: 0.7%;
+    display: flex;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 10px;
+}
+
+.search input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    padding: 2%;
+    outline: none;
+}
+
+.search img{
+    width: 7%;
+    opacity: 0.5;
+}
+
+.profile button{
+    width:7%;
+    height: 1%;
+    border: none;
+    margin-top: 0.7%;
+    padding: 0.7%;
+    background-color: #0A53A1;
+    border-radius: 14px;
+    color: white;
+    font-family: Alte Haas Grotesk;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.0);
+    
+}
+
+.profile button:hover{
+    cursor: pointer;
+    transform: translateY(2px);
+    border: 1px solid black;
+}
+
+.bungkus5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+
+.poster{
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.80);
+    border:1px solid #606060;
+}
+
+.ket5{
+    width:50% ;
+    height:40%;
+    margin: 0;
+}
+
+.harga{
+    margin-left: 3%;
+}
+
+#rp{
+    font-family: Alte Haas Grotesk;
+    font-size: 19px;
+    color: #606060;
+    width: 100%;
+    margin-top: -4%;
+    opacity: 0.6;
+    margin-left: 1%;
+}
+
+#judul{
+    font-size: 34px;
+    font-family: Alte Haas Grotesk;
+}
+
+.diskon{
+    width: 90%;
+    display: flex;
+    height: 100%;
+    margin-left: 3%;
+    gap: 2%;
+}
+
+.dis{
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 119, 119, 0.651);
+    color: #fd0000;
+    border-radius: 12px;
+    font-family: Alte Haas Grotesk;
+    font-size: 14px;
+}
+
+.diskon p{
+    font-size: Alte Haas Grotesk;
+    color: #606060;
+    width: 30%;
+    height: 30px;
+    margin-top: 1%;
+    text-decoration: line-through;
+}
+
+.like1{
+    font-size: 22px;
+    cursor: pointer;
+    color: #bdbdbd;
+    margin-top: 1.7%;
+}
+
+#like:checked +.like1{
+    color: #0A53A1;
+}
+
+.suka{
+    display: flex;
+    margin-left: 3.2%;
+    gap: 1%;
+    margin-top: -4%;
+}
+
+.suka p{
+    font-family: Alte Haas Grotesk;
+    font-size: 12px;
+    margin-top: 2.8%;
+    opacity: 0.4;
+}
+
+.ongkir{
+    display: flex;
+    width: 97%;
+    background-color: #D9D9D9;
+    margin-left: 3%;
+    border-radius: 15px;
+    padding: 2%;
+    height: 50px;
+    gap: 2%;
+}
+
+.mobil{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 22px;
+}
+
+.mobil img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius:50%;
+}
+
+.biaya{
+    margin: 0px;
+    display: block;
+    line-height: 0.4;
+}
+
+.biaya p{
+    font-family: Alte Haas Grotesk;
+}
+
+#gratis{
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.tap{
+    display: flex;
+    font-family: Alte Haas Grotesk;
+    color: #8f8f8f;
+    padding: 2%;
+    gap: 2%;
+    margin-left: 1%;
+}
+
+.wishlist{
+    background-color: #E7E7E7;
+    min-width: 122px;
+    max-width: 133px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.cekout{
+    background-color: #0A53A1;
+    min-width: 122px;
+    max-width: 133px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+#wishlist:checked + .wishlist{
+    background-color: #0A53A1;
+    color: #EBEBEB;
+}
+
+.sinopsis{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.sinopsis p{
+    font-family: Alte Haas Grotesk;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+#jud{
+    font-size: 23px;
+    color: #222222;
+    margin: 0;
+}
+
+.deskripsi1{
+      font-family: Alte Haas Grotesk;
+    font-size: 23px;
+    color: #222222;
+    margin: auto;
+    width: 90%;
+}
+
+.deskripsi{
+    font-family: Alte Haas Grotesk;
+    display: flex;
+    font-size: 23px;
+    color: #222222;
+    margin: auto;
+    width: 100%;
+    gap: 8%;
+
+}
+
+.deskripsi p{
+    font-family: Alte Haas Grotesk;
+    font-size: 12px;
+    color: #606060;
+    margin: 4px;
+    width: 170px;
+}
+
+
+.bubung{
+    width: 100%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.buku{
+    width: 20%;
+    height: 50%;
+    margin: 2%;
+    margin-top: 2px;
+}
+
+.buku img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    border:1px solid rgb(144, 144, 144);
+    border-radius: 12px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}
+
+.buku:hover{
+    transform: translateY(5px);
+}
+
+.buku p{
+    font-family: Alte Haas Grotesk;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    opacity: 0.4;
+    max-width:200px;
+    height: 19px;
+    overflow: hidden;
+    margin: auto;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+.judul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+}
+
+#text{
+  width: 85%;
+  font-family: Alte Haas Grotesk;
+  margin-left: 4%;
+  font-size: 18px;
+}
+
+
+
+.judul a{
+    width: 10%;
+    min-height: 29px;
+    max-height: 35px;
+    text-decoration: none;
+    color: white;
+    background-color: #0A53A1;
+    font-family: Alte Haas Grotesk;
+    font-size: 11px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.judul a:hover{
+    transform: translateY(2px);
+}
+
+
+.aksara{
+    width: 100%;
+    display: flex;
+    height: 20%;
+}
+
+#aksara{
+    width: 8%;
+    height: 100%;
+}
+
+#aksara img{
+    width: 100%;
+    height: 100%;
+}
+
+.aksara hr{
+    width: 2px;
+    background-color: #0A53A1;
+    height: 90px;
+    margin-left: 1%;
+}
+#sub{
+    font-family: Airlash Raiders;
+    color: #0A53A1;
+    font-size: 33px;
+    margin-right: 60%;
+    width: 15%;
+    height: 10%;
+}
+
+#toko{
+    font-family: Alte Haas Grotesk;
+    color: rgb(82, 82, 82);
+    font-size: 15px;
+    width: 13%;
+    height: 10%;
+    margin-top: 3%;
+    opacity: 0.5;
+}
+
+.ket{
+    width: 100%;
+    height: 30%;
+    background-color: #bebebe;
+    padding: 2%;
+}
+
+.p{
+    display: flex;
+    gap: 5%;
+    width: 60%;
+}
+
+.satu{
+    width: 40%;
+    height: 100%;
+}
+
+.dua{
+    width: 40%;
+    height: 10%;
+}
+
+#tebel{
+    font-size: 20px;
+    opacity: 1;
+}
+
+.ket p{
+    font-family: Alte Haas Grotesk;
+    opacity: 0.4;
+    font-size: 14px;
+}
